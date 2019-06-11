@@ -1,0 +1,4 @@
+webapp/testcases/Contact.class
+webapp/pages/Contact_model.class
+webapp/testcases/location.class
+webapp/pages/set_location.class

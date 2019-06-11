@@ -1,0 +1,9 @@
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+		<classes>
+			<class name="webapp.testcases.location" />
+			<class name="webapp.testcases.Contact" />
+			
+		</classes>
+	</test>
+</suite>
