@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="28356" started-at="2019-06-11T12:38:43Z" finished-at="2019-06-11T12:39:11Z">
+  <suite name="softwaretestingmaterial" duration-ms="40567" started-at="2019-06-18T09:27:54Z" finished-at="2019-06-18T09:28:34Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="28356" started-at="2019-06-11T12:38:43Z" finished-at="2019-06-11T12:39:11Z">
+    <test name="testngTest" duration-ms="40567" started-at="2019-06-18T09:27:54Z" finished-at="2019-06-18T09:28:34Z">
+      <class name="webapp.testcases.quick">
+        <test-method status="PASS" signature="verifyquick()[pri:0, instance:webapp.testcases.quick@1e67b872]" name="verifyquick" duration-ms="7512" started-at="2019-06-18T09:28:27Z" finished-at="2019-06-18T09:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyquick -->
+      </class> <!-- webapp.testcases.quick -->
       <class name="webapp.testcases.Contact">
-        <test-method status="PASS" signature="verifycontact()[pri:0, instance:webapp.testcases.Contact@5d624da6]" name="verifycontact" duration-ms="18899" started-at="2019-06-11T12:38:52Z" finished-at="2019-06-11T12:39:11Z">
+        <test-method status="PASS" signature="verifycontact()[pri:0, instance:webapp.testcases.Contact@2ef9b8bc]" name="verifycontact" duration-ms="15980" started-at="2019-06-18T09:27:54Z" finished-at="2019-06-18T09:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycontact -->
       </class> <!-- webapp.testcases.Contact -->
-      <class name="webapp.testcases.location">
-        <test-method status="PASS" signature="verifyvalidlocation()[pri:0, instance:webapp.testcases.location@2ef9b8bc]" name="verifyvalidlocation" duration-ms="9439" started-at="2019-06-11T12:38:43Z" finished-at="2019-06-11T12:38:52Z">
+      <class name="webapp.testcases.pack">
+        <test-method status="PASS" signature="verifypack()[pri:0, instance:webapp.testcases.pack@5d624da6]" name="verifypack" duration-ms="17053" started-at="2019-06-18T09:28:10Z" finished-at="2019-06-18T09:28:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyvalidlocation -->
-      </class> <!-- webapp.testcases.location -->
+        </test-method> <!-- verifypack -->
+      </class> <!-- webapp.testcases.pack -->
     </test> <!-- testngTest -->
   </suite> <!-- softwaretestingmaterial -->
 </testng-results>

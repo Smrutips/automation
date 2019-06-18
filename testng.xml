@@ -1,8 +1,9 @@
 <suite name="softwaretestingmaterial">
 	<test name="testngTest">
 		<classes>
-			<class name="webapp.testcases.location" />
 			<class name="webapp.testcases.Contact" />
+			<class name="webapp.testcases.pack" />
+			<class name="webapp.testcases.quick" />
 			
 		</classes>
 	</test>

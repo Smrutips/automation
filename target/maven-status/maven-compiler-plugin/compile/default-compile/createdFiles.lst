@@ -1,4 +1,8 @@
-webapp/testcases/Contact.class
 webapp/pages/Contact_model.class
 webapp/testcases/location.class
+webapp/testcases/pack.class
+webapp/pages/quick_model.class
 webapp/pages/set_location.class
+webapp/testcases/Contact.class
+webapp/testcases/quick.class
+webapp/pages/pack_model.class

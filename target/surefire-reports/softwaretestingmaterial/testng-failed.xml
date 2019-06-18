@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [softwaretestingmaterial]" verbose="0">
-  <test thread-count="5" name="testngTest(failed)" verbose="0">
+<suite verbose="0" name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" verbose="0" name="testngTest(failed)">
     <classes>
-      <class name="webapp.testcases.location">
+      <class name="webapp.testcases.quick">
         <methods>
-          <include name="verifyvalidlocation"/>
+          <include name="verifyquick"/>
         </methods>
-      </class> <!-- webapp.testcases.location -->
+      </class> <!-- webapp.testcases.quick -->
+      <class name="webapp.testcases.pack">
+        <methods>
+          <include name="verifypack"/>
+        </methods>
+      </class> <!-- webapp.testcases.pack -->
     </classes>
   </test> <!-- testngTest(failed) -->
 </suite> <!-- Failed suite [softwaretestingmaterial] -->
