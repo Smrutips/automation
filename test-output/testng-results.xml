@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="41525" started-at="2019-06-18T09:26:53Z" finished-at="2019-06-18T09:27:34Z">
+  <suite name="Default suite" duration-ms="22805" started-at="2019-06-25T09:33:41Z" finished-at="2019-06-25T09:34:03Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="41525" started-at="2019-06-18T09:26:53Z" finished-at="2019-06-18T09:27:34Z">
-      <class name="webapp.testcases.quick">
-        <test-method status="PASS" signature="verifyquick()[pri:0, instance:webapp.testcases.quick@7cd62f43]" name="verifyquick" duration-ms="8557" started-at="2019-06-18T09:27:26Z" finished-at="2019-06-18T09:27:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyquick -->
-      </class> <!-- webapp.testcases.quick -->
-      <class name="webapp.testcases.Contact">
-        <test-method status="PASS" signature="verifycontact()[pri:0, instance:webapp.testcases.Contact@685cb137]" name="verifycontact" duration-ms="16304" started-at="2019-06-18T09:26:53Z" finished-at="2019-06-18T09:27:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycontact -->
-      </class> <!-- webapp.testcases.Contact -->
+    <test name="Default test" duration-ms="22805" started-at="2019-06-25T09:33:41Z" finished-at="2019-06-25T09:34:03Z">
       <class name="webapp.testcases.pack">
-        <test-method status="PASS" signature="verifypack()[pri:0, instance:webapp.testcases.pack@6a41eaa2]" name="verifypack" duration-ms="16633" started-at="2019-06-18T09:27:09Z" finished-at="2019-06-18T09:27:26Z">
+        <test-method status="PASS" signature="verifypack()[pri:0, instance:webapp.testcases.pack@6a4f787b]" name="verifypack" duration-ms="22754" started-at="2019-06-25T09:33:41Z" finished-at="2019-06-25T09:34:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypack -->
       </class> <!-- webapp.testcases.pack -->
-    </test> <!-- testngTest -->
-  </suite> <!-- softwaretestingmaterial -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
